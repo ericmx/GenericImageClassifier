@@ -11,6 +11,7 @@
 		2EBA33C52AB0AE4500F19F70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA33C42AB0AE4500F19F70 /* ContentView.swift */; };
 		2EBA33C72AB0AE4600F19F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBA33C62AB0AE4600F19F70 /* Assets.xcassets */; };
 		2EBA33CA2AB0AE4600F19F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBA33C92AB0AE4600F19F70 /* Preview Assets.xcassets */; };
+		2EBA33D32AB0AF1F00F19F70 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA33D22AB0AF1F00F19F70 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2EBA33C42AB0AE4500F19F70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EBA33C62AB0AE4600F19F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EBA33C92AB0AE4600F19F70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EBA33D22AB0AF1F00F19F70 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2EBA33C12AB0AE4500F19F70 /* GenericImageClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				2EBA33D22AB0AF1F00F19F70 /* MobileNetV2.mlmodel */,
 				2EBA33C22AB0AE4500F19F70 /* GenericImageClassifierApp.swift */,
 				2EBA33C42AB0AE4500F19F70 /* ContentView.swift */,
 				2EBA33C62AB0AE4600F19F70 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBA33D32AB0AF1F00F19F70 /* MobileNetV2.mlmodel in Sources */,
 				2EBA33C52AB0AE4500F19F70 /* ContentView.swift in Sources */,
 				2EBA33C32AB0AE4500F19F70 /* GenericImageClassifierApp.swift in Sources */,
 			);
